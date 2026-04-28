@@ -52,18 +52,23 @@ As a result of the work, not only the data should be analyzed but also it should
 
 TECHNOLOGIES USED:
 ------------------
-
 Python
+
 Pandas & NumPy
+
 Matplotlib / Seaborn
+
 Jupyter Notebook
 
 INSIGHTS AND OBSERVATIONS:
 -------------------------
 
 Certain regions consistently generate higher costs → potential for workload redistribution
+
 Department-level billing introduces cost accountability
+
 Daily usage trends expose sudden spikes → useful for anomaly detection
+
 SLA metrics highlight the trade-off between performance and cost efficiency
 
 WORKFLOW:
