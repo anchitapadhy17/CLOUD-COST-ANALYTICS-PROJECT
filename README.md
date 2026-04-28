@@ -14,9 +14,13 @@ As a result of the work, not only the data should be analyzed but also it should
  ------------
    
  Daily Cost Tracking – Usage trend analysis over time
+ 
  Region-wise Analysis – Identifying expensive regions to deploy
+ 
  Department Chargeback – Assigning cloud spending to departments
+ 
  Data Transformation Pipeline – Cleaning, processing, and analyzing steps
+ 
  Cost Optimization Insights – Finding out possible cost inefficiencies
  
  PROJECT STRUCTURE:
@@ -98,21 +102,29 @@ Plotted charts to provide visual insights
 USE CASES OF THE PROJECT:
 -------------------------
 Budget tracking and reporting
+
 Over-provisioned resource identification
+
 Cost optimization strategy support
+
 Cloud usage behavior understanding
 
 CHALLENGES ENCOUNTERED:
 -----------------------
 
 Unclean raw data was used in the process
+
 Multiple data sources were integrated without losing vital information
+
 Creating a meaningful analysis instead of a mere description
 
 FUTURE SCOPE:
 ------------
 
 Real-world application in cloud platforms (AWS/GCP/Azure)
+
 Creation of interactive data visualization dashboard
+
 Predictive modeling using machine learning algorithms
+
 Real-time monitoring and alert system
