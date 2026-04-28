@@ -21,22 +21,34 @@ As a result of the work, not only the data should be analyzed but also it should
  
  PROJECT STRUCTURE:
  ------------------
-
+```bash
+.
 ├── data/
-│   ├── cloud_usage_raw.csv
-│   ├── master_cleaned_cloud_data.csv
-│   ├── transformed_data.csv
-│   ├── daily_cost_usage.csv
-│   ├── region_cost_summary.csv
-│   ├── department_chargeback.csv
-│   └── sla_kpi.csv
+│   ├── raw/
+│   │   └── cloud_usage_raw.csv
+│   │
+│   └── processed/
+│       ├── transformed_data.csv
+│       ├── daily_cost_usage.csv
+│       ├── department_chargeback.csv
+│       ├── region_cost_summary.csv
+│       └── sla_kpi.csv
 │
 ├── notebooks/
 │   ├── clean_data.ipynb
 │   ├── transformation.ipynb
-│   └── CLOUD COST TRENDS.ipynb
+│   └── master_cleaned_cloud_data.csv
+│
+├── output/
+│   ├── daily_cost_usage.csv
+│   ├── department_chargeback.csv
+│   ├── master_cleaned_cloud_data.csv
+│   ├── region_cost_summary.csv
+│   └── sla_kpi.csv
 │
 └── README.md
+```
+
 
 TECHNOLOGIES USED:
 ------------------
